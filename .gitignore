@@ -1,0 +1,20 @@
+# Build output
+/2048
+/2048-bench
+bin/
+*.exe
+*.test
+*.out
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Claude Code local state
+.claude/worktrees/
+.claude/settings.local.json
+
+# Workshop material that is not part of the repo
+*.pptx
+*.pdf
